@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFEFB7;
+}
+
+.mercado {
+    border: 3px solid black;
+    background-color: #ec3f21;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 85%;
+    margin: 20px 60px 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.teste {
+    width: 85%;
+    margin: 20px 60px 20px auto;
+}
+
+.btn-carrinho {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    /* height: 100%; */
+    position: absolute;
+    top: 18%;
+    left: 72%;
+    /* border: 2px dashed gray; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.container-compras {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #ec3f21;
+    border-radius: 8px 8px 0 0;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.total .preco-total{
+    color: rgb(200, 0, 80);
+}
+
+.nome-preco {
+    width: 100%;
+    height: 20%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+    border-bottom: 2px dashed gray;
+}
+
+.nome-preco a {
+    margin-right: 10px;
+    color: gray;
+}
+
+.nome-preco p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.nome-preco h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btn-finalizar {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    background-color: rgb(0, 164, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    margin: 26px 290px 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagem-preco {
+    display: flex;
+}
+
+.produtos {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    box-shadow: 5px 5px 15px black;
+}
+
+.produtos p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #FFEFB7;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 999;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.produtos img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.produtos a {
+    border-radius: 0 0 10px 10px;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.coluna-lateral {
+    background-color: #ec3f21;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 2%;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    box-shadow: 5px 5px 15px black;
+}
+
+.logo {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: #ec3f21;
+    border-radius: 100px;
+    margin-top: 120px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.cereal {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.amvrosia {
+    margin-top: -40px;
+    width: 80px;
+    height: 20px;
+}
+
+.food {
+    width: 20px;
+    height: 15px;
+}
+
+
+
