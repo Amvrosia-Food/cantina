@@ -4,7 +4,7 @@ O projeto Amvrosia foi escrito em PHP e seu principal objetivo é ser uma cantin
 
 Versões dos softwares utilizados:
 
-HTML 5
+HTML 5 /n
 CSS 3
 PHP 8.0.2
 MySQL 8.0.2
