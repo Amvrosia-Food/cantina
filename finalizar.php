@@ -5,7 +5,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,13 +19,14 @@
 
 <div class="mostra-produtos">
     <div class="cabecalho-produtos">
-        <h1>PEDIDO EFETUADO</h1>
+        <h1>PEDIDO EFETUADO!!!</h1>
         <p>A Amvrosía Food agradece a sua preferência!</p>
     </div><!--cabecalho-produtos-->
 <?php
 
 foreach($_SESSION['dados'] as $produtos){
-
+    $conexao = new mysqli('localhost', 'root', '', 'amvrosiadb');
+    mysqli_query($conexao, "UPDATE produtos SET qtdProd = qtdProd - '{$produtos['quantidade']}' WHERE nomeProd='{$produtos['nome']}'");
 ?>     
 
 

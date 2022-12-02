@@ -167,22 +167,5 @@ error_reporting(0);
         <img class="food" src="logo/Food.png" alt="">
     </div><!--logo-->
 </aside><!--coluna-lateral-->
-
-<?php 
-
-    if(isset($_GET['finalizar']))
-
-        $nome = $value['nome'];
-        $qtd = $value['quantidade'];
-        $conexao = new mysqli('localhost', 'root', '', 'amvrosiadb');
-        if($nome == 'Empada'){
-            mysqli_query($conexao, "UPDATE produtos SET qtdProd = qtdProd-1 WHERE id = 1");
-        } elseif ($nome == 'Pão de Queijo') {
-            mysqli_query($conexao, "UPDATE produtos SET qtdProd = qtdProd-1 WHERE id = 2");
-        }
-        
-        
-    
-?>
 </body>
 </html>
