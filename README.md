@@ -1,6 +1,6 @@
 # Este projeto foi realizado com base na solicitação do Professor Emerson
 
-O projeto Amvrosia foi escrito em PHP e seu principal objetivo é ser uma cantina simples e funcional, com os produtos a pré disposição do usuário e que ao final da solicitação da compra, emite uma nota fiscal mostrando o que foi comprado e respectivo valor. Foi utilizado tambem o banco de dados MySQL para o estoque e controle de produtos.
+O projeto Amvrosia foi escrito em PHP e seu principal objetivo é ser uma cantina simples e funcional, com os produtos a pré disposição do usuário e que ao final da solicitação da compra, emite uma nota fiscal mostrando o que foi comprado e respectivo valor. Foi utilizado também o banco de dados MySQL para o estoque e controle de produtos.
 
 Versões dos softwares utilizados:
 
